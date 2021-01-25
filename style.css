@@ -1,0 +1,78 @@
+/* Normalisation de la page ou RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: ;
+    color: #222222;
+}
+/* Header */
+header{
+    background-color: #333333;
+}
+header h1{
+    display: inline;
+    padding: 1.23rem;
+}
+header a:link{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li a{
+    padding: 1.23rem;
+}
+header nav ul li a:hover{
+    background-color: #444444;
+}
+header :visited{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li{
+    display: inline;
+    text-align: center;
+}
+header nav{
+    float: right;
+}
+/* Section 1 */
+
+.person{
+    background-image: url(../cafe-html/src/img/frame.jpg);
+    width: 1280px;
+    height: 853px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+hr{
+    background-color: black;
+    height: 1rem;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+}
+section a:link{
+    text-decoration: none;
+    color: white;
+}
+section :visited{
+    text-decoration: none;
+    color: white;
+}
+section p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 1%;
+}
