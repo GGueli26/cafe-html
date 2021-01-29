@@ -6,23 +6,31 @@
 }
 
 html, body{
-    font-family: ;
     color: #222222;
+    font-family: "open-sans" , sans-serif;
 }
 /* Header */
+
 header{
     background-color: #333333;
+    height: 5rem;
 }
 header h1{
-    display: inline;
-    padding: 1.23rem;
+    display: inline-block;
+    padding-left: 1.23rem;
+    margin-top: 1rem;
 }
 header a:link{
     text-decoration: none;
     color: white;
 }
 header nav ul li a{
-    padding: 1.23rem;
+    padding-right: 1rem;
+    display: inline-block;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
 }
 header nav ul li a:hover{
     background-color: #444444;
@@ -40,17 +48,24 @@ header nav{
 }
 /* Section 1 */
 
-.person{
-    background-image: url(../cafe-html/src/img/frame.jpg);
-    width: 1280px;
-    height: 853px;
+.cafe{
+    background-image: url(/src/img/frame.jpg);
+    width: 100%;
+    height: 75rem;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 250px;
+    background-size: 100%;
+    text-align: center;
 }
 h2{
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 1.5rem;
 }
 hr{
     background-color: black;
@@ -68,11 +83,230 @@ section :visited{
     text-decoration: none;
     color: white;
 }
-section p{
+.premierP{
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
     text-align: center;
-    padding-left: 35%;
-    padding-right: 35%;
     padding-top: 1%;
+    font-size: 2rem;
+    color: white;
+    line-height: 3rem;
+}
+.decouvrir{
+    padding-top: 3rem;
+}
+.cafe p a{
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 5rem;
+    width: 12rem;
+    padding-top: 1.65rem;
+    font-size: 1.5rem;
+    border-radius: 40px 40px 40px 40px;
+}
+.cafe p a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* Section 2 */
+
+.sdiv{
+    padding-top: 10rem;
+    display: inline-block;
+}
+.sdiv p{
+    font-size: 1.3rem;
+}
+
+section div h3{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 3rem;
+}
+
+.diva{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.divb{
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+
+.spa{
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+}
+.fas{
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+}
+
+/* Image person */
+
+.person{
+    margin-top: 8rem;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 33rem;
+    background-image: url(/src/img/person-1.jpg);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Dernière section */
+
+.lastsect{
+    text-align: center;
+    height: 20rem;
+    margin-top: 10rem;
+}
+.lastsect h3{
+    font-size: 3rem ;
+    padding-bottom: 1rem;
+}
+
+.lastsect p{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+}
+.lastsect a{
+    background-color: #222222;
+    display: inline-block;
+    height: 4rem;
+    width: 10rem;
+    padding-top: 1.2rem;
+    font-size: 1.5rem;
+    border-radius: 30px 30px 30px 30px;
+}
+.lastsect a:hover{
+    color:#222222;
+    background-color: white;
+}
+
+/* Footer */
+
+footer{
+    background-color: #333333;
+    height: 5rem;
+    padding-top: 2rem;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+/* Page Where */
+
+.where{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.wherediv1{
+    width: 50%;
+    display: inline-block;
+    padding-left: 4rem;
+}
+
+
+.wherediv2{
+    float: right;
+    width: 50%;
+    display: inline-block;
+    margin-top: 5rem;
+    line-height: 3rem;
+}
+
+.wherediv2 h4{
+    font-size: 2rem;
+}
+
+.metro{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.magenta{
+    background-color: magenta;
+    border-radius: 50%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: white;
+}
+.chocolate{
+    background-color: chocolate;
+    border-radius: 50%;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    color: white;
+}
+
+/* Page Contact */
+
+.sform{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    line-height: 2rem;
+    width: 50%;
+}
+h5{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+label{
+    font-weight: bold;
+}
+input{
+    width: 50rem;
+    padding-bottom: 3rem;
+}
+textarea{
+    width: 50rem;
+    height: 6rem;
+}
+
+.submit{
+    color: white;
+    background-color: black;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 1.5rem;
+}
+.submit:hover{
+    color: black;
+    background-color: white;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 1.5rem;
 }
